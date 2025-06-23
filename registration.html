@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="icon" type=image/jpg href="nursery.jpg">
+</head>
+
+<body style="background-color: beige;">
+    <form action="submit">
+        <font align="center" size="5">
+            <table align="center" height="500" width="500" cellspacing>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>Male <input type="radio" name="Gender" value="male">
+                        Female <input type="radio" name="Gender" value="female"></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea name="address" rows="4"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Phone Number:</td>
+                    <td><input type="number" name="phoneNumber"></td>
+                </tr>
+                <tr>
+                    <td>City:</td>
+                    <td><select name="city">
+                            <option value="-1">select city</option>
+                            <option value="Ahmedabad">Ahmedabad</option>
+                            <option value="Surat">Surat</option>
+                            <option value="Gandhinagar">Gandhinagar</option>
+                            <option value="Vadodara">Vadodara</option>
+                            <option value="Vapi">Vapi</option>
+                        </select></td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2">
+                        <input type="submit" value="submit"></input>
+                        <a href="Home.html"><input type="button" value="back"/></a>
+                    </td>
+                </tr>
+
+            </table>
+        </font>
+    </form>
+    <h2 align="center">&copy;Nursery</h2>
+<p><a href="Home.html">Go to Home page </a></p>
+    <!-- <script src="/js/register.js" defer></script> -->
+</body>
+
+</html>
